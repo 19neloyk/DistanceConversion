@@ -47,6 +47,7 @@ struct ContentView: View {
                     Text("The resulting value is \(conversion,specifier: "%2.f") \(unitTypes[unit2])")
                 }
             }
+            .navigationBarTitle("Unit Conversion")
         }
     }
 }
